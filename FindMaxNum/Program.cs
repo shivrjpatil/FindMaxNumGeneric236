@@ -21,6 +21,9 @@ namespace FindMaxNum
                 case 2:
                     FindmaxFloatNum.MaxFloatNumber();
                     break;
+                case 3:
+                    FindMaxString.MaxString();
+                    break;
             }
         }
     }
