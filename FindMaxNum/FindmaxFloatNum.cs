@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace FindMaxNum
 {
-    internal class FindMaxIntNum
+    internal class FindmaxFloatNum
     {
-        public static void MaxIntNumber()       
+        public static void MaxFloatNumber()          
         {
-            Console.WriteLine("Enter First Integer Number");
-            int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Second Integer Number");
-            int b = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Third Integer Number");
-            int c = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter First Float Number");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter Second Float Number");
+            double b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter Third Float Number");
+            double c = Convert.ToDouble(Console.ReadLine());
             if ((a.CompareTo(b) > 0) && (a.CompareTo(c) > 0))
             {
                 Console.WriteLine("The maximum number is:" + a);
