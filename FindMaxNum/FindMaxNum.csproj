@@ -46,6 +46,7 @@
     <Compile Include="FindmaxFloatNum.cs" />
     <Compile Include="FindMaxIntNum.cs" />
     <Compile Include="FindMaxString.cs" />
+    <Compile Include="FindMaxUsinggeneric.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
